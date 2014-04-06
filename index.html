@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	
+		<title> Shopping App </title>
+		
+		<link rel="stylesheet" href="shoppingapp.css" type="text/css" />
+		
+	
+	</head>	
+
+
+	<body>
+	
+
+<div class="container">
+
+	<h1 id="intro">Faisal's Shopping App</h1>
+
+	<form id="shoppingapp">
+    <input id="addnewitem" placeholder="Add new item" type="text" autofocus="autofocus"/>
+    <input type="submit" value="Add New Item"/>
+	</form>
+
+	<div class='items' >
+	
+	<ul>
+		<li><a href= "#" id="remove-item">Remove Checked Items</a></li>
+
+		<li><a href= "#" id="clear-items" >Clear All Items</a></li>
+
+		<li><a href= "#" id="completed-item-list" >Completed Items</a></li>
+		
+	</ul>
+
+</div>
+
+
+ 	<div id="item-list-wrapper">
+		<ul id="item-list"></ul>
+
+	
+	</div>
+
+</div>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script type="text/javascript" src="shoppingapp.js"></script>
+
+</body>
+
+</html>
